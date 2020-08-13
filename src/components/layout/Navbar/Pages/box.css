@@ -1,0 +1,21 @@
+.background {
+  font-family: fantasy;
+  font-size: medium;
+  text-align: center;
+  padding: 0.5rem;
+}
+.box {
+  box-sizing: content-box;
+  margin: 10px;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  max-width: fit-content;
+}
+.grid {
+  display: flex;
+  height: 900px;
+  max-height: 2;
+  flex-direction: unset;
+  background-color: black;
+}

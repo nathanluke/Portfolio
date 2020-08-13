@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+.home-page {
+    text-align: center;
+}
+.home-page-header-logo {
+    height: 40vmin;
+    border-radius: 60%;
+    margin-bottom: 50px;
+    border: 1vh solid black ;
+    
+}
+
+.home-page-header {
+    background-color: black ;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: medium;
+    padding: 6vh;
+    color: white;
+}
+h1 {
+    margin-bottom: 20px ;
+}
+
+p {
+    line-height: 2em;
+    font-size: 1.2em;
+}
